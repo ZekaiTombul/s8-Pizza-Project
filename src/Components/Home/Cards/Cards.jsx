@@ -7,17 +7,17 @@ export default function Cards() {
             
             <Card
             className="card-item"
-            img="./images/iteration-2-images/pictures/food-1.png"
+            img="../../../../images/iteration-2-images/pictures/food-1.png"
             text="Terminal Pizza"
             />
             <Card
             className="card-item"
-            img="./images/iteration-2-images/pictures/food-2.png"
+            img="../../../../images/iteration-2-images/pictures/food-2.png"
             text="Position Absolute Ach Pizza"
             />
             <Card
             className="card-item"
-            img="./images/iteration-2-images/pictures/food-3.png"
+            img="../../../../images/iteration-2-images/pictures/food-3.png"
             text="useEffect Tavuklu Burger"
             />            
 
