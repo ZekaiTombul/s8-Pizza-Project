@@ -1,14 +1,22 @@
-import { useState } from 'react'
+
 import './App.css'
 import Navbar from './Components/NavBar/Navbar'
 import Footer from './Components/Footer/Footer'
+import { Route, Switch } from 'react-router-dom'
+import Home from './Components/Home/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <Navbar />
+      <Switch>
+        <Route path="/" exact>
+        <Home /> 
+        </Route>
+
+      </Switch>
       <Footer />
     </>
   )
