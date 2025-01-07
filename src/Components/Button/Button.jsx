@@ -2,17 +2,18 @@ export default function Button({
     className="",
     onClick,
     children,
-    type="button"
-    disabled = false
+    type="button",
+    disabled= false
 }) {
 
-    return <button
-
+    return (
+        <button 
         type={type}
         className={className}
         onClick={onClick}
         disabled={disabled}>
+        
         {children}
 
-        </button>;
+        </button>);
 }
