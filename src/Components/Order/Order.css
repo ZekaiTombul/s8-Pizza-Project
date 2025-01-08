@@ -1,0 +1,61 @@
+.order-page {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: var(--primary-grey);
+    line-height: 2rem;
+    width: 50%;
+    margin: auto;
+    padding: 3em;
+    font-family: "Barlow", sans-serif;
+}
+
+.order-pizza {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.order-pizza > h1 {
+    color: var(--primary-black);
+    padding: 0.5em;
+}
+
+.order-pizza-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-pizza-review {
+    display: flex;
+    gap: 4em;
+}
+
+.order-error {
+    color: var(--primary-red);
+}
+
+.button-amount-change {
+    background-color: var(--primary-orange);
+    padding: 0.3em 0.8em;
+    border-radius: 5px;
+    margin: 0 0.2em;
+}
+
+.button-form-submit {
+    background-color: var(--primary-orange);
+    padding: 1em 4em;
+    border-radius: 1px;
+}
+
+.order-summary {
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 769px) {
+    .order-page {
+        margin: 0;
+        width: 100%;
+        padding: 2.5em;
+    }
+}
