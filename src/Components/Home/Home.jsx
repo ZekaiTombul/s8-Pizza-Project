@@ -5,13 +5,13 @@ import TopRatedMenus from "./TopRatedMenus/TopRatedMenus";
 import Cards from "./Cards/Cards";
 import "./Home.css";
 
-export default function Home({cuisines, deals}) {
+export default function Home() {
     return (
         <div className="home-container">
             <Hero />
-            <CuisineList cuisines={cuisines}/>
-            <FoodDeals deals={deals}/>
-            <TopRatedMenus cuisines={cuisines}/>
+            <CuisineList />
+            <FoodDeals />
+            <TopRatedMenus />
             <Cards />
         </div>
     );
